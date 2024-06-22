@@ -1,0 +1,516 @@
+.stay-updated-with {
+    margin: 0;
+    width: 946px;
+    position: relative;
+    font-size: inherit;
+    line-height: 47px;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+  }
+  .news-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+  }
+  .frame-child {
+    height: 166.4px;
+    width: 256px;
+    position: relative;
+    border-radius: var(--br-5xs);
+    object-fit: cover;
+    display: none;
+  }
+  .article {
+    position: relative;
+    line-height: 9px;
+    display: inline-block;
+    min-width: 37px;
+  }
+  .article-wrapper,
+  .rectangle-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .article-wrapper {
+    width: 61px;
+    border-radius: var(--br-xs) 0 0 var(--br-xs);
+    background-color: var(--yellow-100);
+    justify-content: flex-start;
+    padding: var(--padding-5xs-5) var(--padding-5xs);
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .rectangle-parent {
+    align-self: stretch;
+    border-radius: var(--br-5xs);
+    justify-content: flex-end;
+    padding: var(--padding-5xs) 0 var(--padding-115xl-4);
+    background-image: url(../../../assets/rectangle-30075@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-size: var(--font-size-xs);
+  }
+  .primary-education-bangladesh {
+    position: relative;
+    line-height: 21px;
+    font-weight: 600;
+    font-family: var(--font-manrope);
+    text-align: left;
+  }
+  .development-ngos-arm,
+  .read-more {
+    position: relative;
+    display: inline-block;
+  }
+  .development-ngos-arm {
+    align-self: stretch;
+    height: 67px;
+    font-size: var(--font-size-lg);
+    line-height: 27px;
+    font-weight: 600;
+    font-family: var(--font-manrope);
+    color: var(--black-100);
+    text-align: left;
+  }
+  .read-more {
+    text-decoration: underline;
+    line-height: 21px;
+    min-width: 72px;
+  }
+  .read-more-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-11xs-5) 0 0;
+  }
+  .arrow-right-alt-icon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    min-height: 24px;
+  }
+  .frame-group,
+  .frame-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-group {
+    border-radius: var(--br-3xl);
+    flex-direction: row;
+    padding: var(--padding-9xs) 0;
+    gap: var(--gap-3xs);
+  }
+  .frame-parent {
+    box-shadow: var(--shadow-lg);
+    border-radius: var(--br-base);
+    background-color: var(--white-100);
+    flex-direction: column;
+    padding: var(--padding-13xl);
+    gap: 25.3px;
+  }
+  .frame-item {
+    height: 166.4px;
+    width: 256px;
+    position: relative;
+    border-radius: var(--br-5xs);
+    object-fit: cover;
+    display: none;
+  }
+  .news {
+    text-decoration: none;
+    position: relative;
+    line-height: 9px;
+    color: inherit;
+    display: inline-block;
+    min-width: 33px;
+  }
+  .news-wrapper,
+  .rectangle-group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .news-wrapper {
+    width: 57px;
+    border-radius: var(--br-xs) 0 0 var(--br-xs);
+    background-color: var(--yellow-100);
+    justify-content: flex-start;
+    padding: var(--padding-5xs-5) var(--padding-5xs);
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .rectangle-group {
+    align-self: stretch;
+    border-radius: var(--br-5xs);
+    justify-content: flex-end;
+    padding: var(--padding-5xs) 0 var(--padding-115xl-4);
+    background-image: url(../../../assets/rectangle-30075@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-size: var(--font-size-xs);
+  }
+  .development-activities-in,
+  .local-ngos-for {
+    position: relative;
+    line-height: 21px;
+    font-weight: 600;
+    font-family: var(--font-manrope);
+    text-align: left;
+  }
+  .local-ngos-for {
+    align-self: stretch;
+    font-size: var(--font-size-lg);
+    line-height: 27px;
+    color: var(--black-100);
+  }
+  .read-more1 {
+    position: relative;
+    text-decoration: underline;
+    line-height: 21px;
+    display: inline-block;
+    min-width: 72px;
+  }
+  .read-more-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-11xs-5) 0 0;
+  }
+  .arrow-right-alt-icon1 {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    min-height: 24px;
+  }
+  .frame-container,
+  .frame-div {
+    border-radius: var(--br-3xl);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-9xs) 0;
+    gap: var(--gap-3xs);
+  }
+  .frame-container {
+    box-shadow: var(--shadow-lg);
+    border-radius: var(--br-base);
+    background-color: var(--white-100);
+    flex-direction: column;
+    padding: var(--padding-13xl);
+    gap: var(--gap-xl-7);
+  }
+  .frame-inner {
+    height: 166.4px;
+    width: 256px;
+    position: relative;
+    border-radius: var(--br-5xs);
+    object-fit: cover;
+    display: none;
+  }
+  .article1 {
+    position: relative;
+    line-height: 9px;
+    display: inline-block;
+    min-width: 37px;
+  }
+  .article-container,
+  .rectangle-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .article-container {
+    width: 61px;
+    border-radius: var(--br-xs) 0 0 var(--br-xs);
+    background-color: var(--yellow-100);
+    justify-content: flex-start;
+    padding: var(--padding-5xs-5) var(--padding-5xs);
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .rectangle-container {
+    align-self: stretch;
+    border-radius: var(--br-5xs);
+    justify-content: flex-end;
+    padding: var(--padding-5xs) 0 var(--padding-115xl-4);
+    background-image: url(../../../assets/rectangle-30075@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-size: var(--font-size-xs);
+  }
+  .rohingya-fund,
+  .rohingya-fund-use {
+    position: relative;
+    line-height: 21px;
+    font-weight: 600;
+    font-family: var(--font-manrope);
+    text-align: left;
+  }
+  .rohingya-fund-use {
+    align-self: stretch;
+    font-size: var(--font-size-lg);
+    line-height: 27px;
+    color: var(--black-100);
+  }
+  .read-more2 {
+    text-decoration: underline;
+    position: relative;
+    line-height: 21px;
+    color: inherit;
+    display: inline-block;
+    min-width: 72px;
+  }
+  .read-more-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-11xs-5) 0 0;
+  }
+  .arrow-right-alt-icon2 {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    min-height: 24px;
+  }
+  .frame-parent1,
+  .frame-parent2 {
+    border-radius: var(--br-3xl);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-9xs) 0;
+    gap: var(--gap-3xs);
+  }
+  .frame-parent1 {
+    box-shadow: var(--shadow-lg);
+    border-radius: var(--br-base);
+    background-color: var(--white-100);
+    flex-direction: column;
+    padding: var(--padding-13xl) var(--padding-13xl) 58.6px;
+    gap: var(--gap-xl-7);
+  }
+  .rectangle-icon {
+    height: 166.4px;
+    width: 256px;
+    position: relative;
+    border-radius: var(--br-5xs);
+    object-fit: cover;
+    display: none;
+  }
+  .news1 {
+    text-decoration: none;
+    position: relative;
+    line-height: 9px;
+    color: inherit;
+    display: inline-block;
+    min-width: 33px;
+  }
+  .news-frame,
+  .rectangle-parent1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .news-frame {
+    width: 57px;
+    border-radius: var(--br-xs) 0 0 var(--br-xs);
+    background-color: var(--yellow-100);
+    justify-content: flex-start;
+    padding: var(--padding-5xs-5) var(--padding-5xs);
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .rectangle-parent1 {
+    align-self: stretch;
+    border-radius: var(--br-5xs);
+    justify-content: flex-end;
+    padding: var(--padding-5xs) 0 var(--padding-115xl-4);
+    background-image: url(../../../assets/rectangle-30075@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-size: var(--font-size-xs);
+  }
+  .microsoft-charity,
+  .ngos-in-bangladesh {
+    position: relative;
+    font-weight: 600;
+    font-family: var(--font-manrope);
+    text-align: left;
+  }
+  .microsoft-charity {
+    line-height: 21px;
+    display: inline-block;
+    min-width: 124px;
+  }
+  .ngos-in-bangladesh {
+    align-self: stretch;
+    font-size: var(--font-size-lg);
+    line-height: 27px;
+    color: var(--black-100);
+  }
+  .read-more3 {
+    position: relative;
+    text-decoration: underline;
+    line-height: 21px;
+    display: inline-block;
+    min-width: 72px;
+  }
+  .read-more-wrapper1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-11xs-5) 0 0;
+  }
+  .arrow-right-alt-icon3 {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    min-height: 24px;
+  }
+  .frame-parent3,
+  .frame-parent4 {
+    border-radius: var(--br-3xl);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-9xs) 0;
+    gap: var(--gap-3xs);
+  }
+  .frame-parent3 {
+    box-shadow: var(--shadow-lg);
+    border-radius: var(--br-base);
+    background-color: var(--white-100);
+    flex-direction: column;
+    padding: var(--padding-13xl);
+    gap: var(--gap-xl-7);
+  }
+  .news-cards,
+  .see-all-news {
+    font-family: var(--font-inter);
+  }
+  .news-cards {
+    align-self: stretch;
+    display: grid;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-13xl);
+    grid-template-columns: repeat(4, minmax(240px, 1fr));
+    text-align: center;
+    font-size: var(--font-size-sm);
+    color: var(--blue-100);
+  }
+  .see-all-news {
+    position: relative;
+    font-size: var(--font-size-lg);
+    line-height: 13px;
+    display: inline-block;
+    color: var(--yellow-100);
+    text-align: left;
+    min-width: 110px;
+  }
+  .see-all-container {
+    cursor: pointer;
+    border: 0;
+    padding: 21.5px 16px;
+    background-color: var(--blue-100);
+    border-radius: var(--br-xs);
+    flex-direction: row;
+    justify-content: flex-start;
+    white-space: nowrap;
+  }
+  .see-all-container:hover {
+    background-color: #267acc;
+  }
+  .news-footer,
+  .root,
+  .see-all-container {
+    display: flex;
+    align-items: flex-start;
+  }
+  .news-footer {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+  }
+  .root {
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 64px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    font-size: 36px;
+    color: var(--black-100);
+    font-family: var(--font-inter);
+    margin-top: 15vh;
+  }
+ 
+     @media screen and (max-width: 1025px) {
+    .news-cards {
+      justify-content: center;
+      grid-template-columns: repeat(2, minmax(240px, 416px));
+    }
+  }
+  @media screen and (max-width: 975px) {
+    .stay-updated-with {
+      font-size: 29px;
+      line-height: 37px;
+    }
+  }
+  @media screen and (max-width: 725px) {
+    .news-cards {
+      gap: var(--gap-base);
+      grid-template-columns: minmax(240px, 1fr);
+    }
+    .root {
+      gap: var(--gap-13xl);
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .stay-updated-with {
+      font-size: 22px;
+      line-height: 28px;
+    }
+    .frame-container,
+    .frame-parent {
+      padding-bottom: var(--padding-2xl);
+    }
+    .frame-container,
+    .frame-parent,
+    .frame-parent1,
+    .frame-parent3 {
+      padding-top: var(--padding-2xl);
+      box-sizing: border-box;
+    }
+    .frame-parent1 {
+      padding-bottom: 38px;
+    }
+    .frame-parent3 {
+      padding-bottom: var(--padding-2xl);
+    }
+    .root {
+      gap: var(--gap-base);
+    }
+  }
+  

@@ -1,0 +1,13 @@
+<button
+  [type]="type"
+  [disabled]="disabled"
+  [ngClass]="size"
+  [ngStyle]="{
+    'background-color': disabled ? disabledColor : currentColor,
+    'color': currentTextColor
+  }"
+  (click)="onClick()"
+  (mouseenter)="onMouseEnter()"
+  (mouseleave)="onMouseLeave()">
+  {{ label }}
+</button>
