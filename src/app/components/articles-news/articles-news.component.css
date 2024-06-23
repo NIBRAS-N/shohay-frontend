@@ -464,6 +464,7 @@
     color: var(--black-100);
     font-family: var(--font-inter);
     margin-top: 15vh;
+    /* border:2px solid red; */
   }
  
      @media screen and (max-width: 1025px) {

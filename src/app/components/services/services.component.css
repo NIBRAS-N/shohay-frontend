@@ -12,11 +12,12 @@
 .find-your-cause {
   margin: 0;
   position: relative;
-  font-size: inherit;
+  font-size: var(--header-h1-bold-size);
   line-height: 36px;
   font-weight: 700;
-  font-family: inherit;
+  font-family: var(--font-inter);
   z-index: 1;
+
 }
 .browse-our-curated {
   align-self: stretch;
@@ -40,6 +41,7 @@
   align-items: flex-start;
   justify-content: flex-start;
   padding: var(--padding-11xs-5) 0 0;
+  
 }
 .arrow-right-alt-icon {
   height: 24px;
@@ -146,10 +148,10 @@
 .start-your-journey {
   margin: 0;
   position: relative;
-  font-size: inherit;
+  font-size: var(--header-h1-bold-size);
   line-height: 36px;
   font-weight: 700;
-  font-family: inherit;
+  font-family: var(--font-inter);
   z-index: 1;
 }
 .thinking-of-starting {
@@ -265,11 +267,12 @@
 .strive-for-impact {
   margin: 0;
   position: relative;
-  font-size: inherit;
+  font-size: var(--header-h1-bold-size);
   line-height: 36px;
   font-weight: 700;
   font-family: inherit;
   z-index: 1;
+  
 }
 .access-essential-resources {
   align-self: stretch;
@@ -383,10 +386,11 @@
   font-family: var(--font-inter);
 }
 .root {
+  /* border: 2px solid red; */
   width: 100%;
   position: relative;
   flex-direction: column;
-  gap: 31.8px;
+  gap: 15.8px;
   line-height: normal;
   letter-spacing: normal;
   margin-top: 30vh;
